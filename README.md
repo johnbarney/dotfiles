@@ -6,9 +6,12 @@
 * neofetch
 * alacritty
 * Hack Nerd Font
+* FireCoda Nerd Font
 * starship prompt
 * vim
 * neovim
+* exa
+* bat
 
 ## Install instructions
 
