@@ -13,7 +13,19 @@
 * exa
 * bat
 
-## Install instructions
+## Install Required Applications macOS Install (Brew)
+
+`brew install fish neofetch starship vim neovim exa bat`
+`brew tap homebrew/cask-fonts`
+`brew install --cask alacritty font-fira-code-nerd-font font-hack-nerd-font`
+
+## Dotfiles Install Instructions
+
+Use chsh to change your default shell to fish.
+
+`which fish`
+
+`chsh`
 
 Move to home directory:
 
@@ -30,6 +42,8 @@ Create local alias:
 Check out files:
 
 `config checkout`
+
+You may run into an error if the checkout would overwrite any existing files. Delete or move those files out of the way and run `config checkout` again.
 
 Restart prompt and run:
 
