@@ -37,7 +37,7 @@ end
 
 # Aliases
 alias vim='nvim'
-alias cat='bat'
+alias cat='bat -p'
 alias ls='exa --color=always --group-directories-first'
 alias ll='ls -al'
 alias clear='clear && neofetch'
